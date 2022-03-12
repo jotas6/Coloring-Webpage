@@ -1,0 +1,57 @@
+h1{
+    font-size: 4em;
+}
+h2{
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: 2.5%;
+}
+h3{
+    font-weight: 150;
+    font-size: 1em;
+    color: greenyellow;
+    margin-bottom: 4.5%;
+}
+body{
+    background-color: rgb(72, 81, 112);
+    text-align: center;
+    color: whitesmoke;
+    align-items: center;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.vertical_menu{
+
+    width: 10%;
+    float: left;
+    top: 0%;
+    position:fixed;
+    left: 0%;
+}
+.vertical_menu a{
+    background-color: rgb(72, 81, 112);
+    color: black;
+    display: block;
+    padding: 10%;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.vertical_menu a:hover{
+    background-color: pink;
+    opacity: 50%;
+}
+.vertical_menu a.active{
+    background-color: pink;;
+}
+input[type=number]{
+    width: 100px;
+    border-radius: 8px;
+    position: relative;
+    top: 10%;
+}
+input[type=color]{
+    margin-top: 1%;
+    border-radius: 20px;
+}
